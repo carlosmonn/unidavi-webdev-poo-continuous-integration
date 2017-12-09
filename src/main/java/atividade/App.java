@@ -1,7 +1,9 @@
 package atividade;
 
+import java.util.logging.Logger;
+
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Olá mundo!");
+		Logger.getGlobal().info("Olá mundo!");
 	}
 }
